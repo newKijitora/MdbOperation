@@ -9,7 +9,7 @@ namespace Kijitora.MdbOperation
     public class MdbMapper<TSource> : IMdbMapper<TSource>
     {
         /// <summary>
-        /// <see cref="MdbMapper"/>クラスの新しいインスタンスを初期化します。
+        /// <see cref="MdbMapper{TSource}"/>クラスの新しいインスタンスを初期化します。
         /// </summary>
         public MdbMapper(TSource source, string tableName, Func<DataTable, int> func)
         {
@@ -24,7 +24,7 @@ namespace Kijitora.MdbOperation
         }
 
         /// <summary>
-        /// <see cref="MdbMapper"/>クラスの新しいインスタンスを初期化します。
+        /// <see cref="MdbMapper{TSource}"/>クラスの新しいインスタンスを初期化します。
         /// </summary>
         public MdbMapper(TSource source, string name)
         {
